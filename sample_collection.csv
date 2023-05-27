@@ -1,0 +1,4 @@
+_id,name,age,gender,country,interests,education,status
+6472179634aff76d87bd51c6,Bob,30,Male,Canada,"['hiking', 'photography']","{'degree': ""Bachelor's"", 'university': 'DEF University', 'year': 2017}",Active
+6472179634aff76d87bd51c7,Eve,28,Female,Canada,"['gardening', 'cooking']","{'degree': ""Bachelor's"", 'university': 'GHI University', 'year': 2018}",
+6472179634aff76d87bd51c8,Mike,40,Male,United Kingdom,"['traveling', 'sports']","{'degree': 'PhD', 'university': 'JKL University', 'year': 2012}",Active

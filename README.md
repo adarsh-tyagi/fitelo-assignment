@@ -4,12 +4,16 @@
 This project is using Python and MongoDB. To use MongoDB with Python, pyMongo library is used and tasks like Data Manipulation, Data Analysis and MongoDB's Data Aggregation are done.
 
 ## Code Structure:
+
+![image](https://github.com/adarsh-tyagi/fitelo-assignment/assets/52347329/76007645-1681-4669-a530-0557efb7cf15)
+
 #### dbData.py :
 This file contains the list of dictionaries to be inserted in collection (table). Each dictionary has data like name, age, gender, country, interests and education.
 
 #### .env :
 This file contains the variable **uri** with a value which will be the mongo atlas uri. Create this file before running the project. This uri is necesaary for creating database and collections.
 **NOTE :**  ***I have not added my .env file because it is having my mongodb credentials***
+
 ![image](https://github.com/adarsh-tyagi/fitelo-assignment/assets/52347329/a204114f-06fc-4e66-982d-f2ad3af260db)
 
 #### Database.py :

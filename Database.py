@@ -9,6 +9,7 @@ class Database:
         Reads key 'uri' value from .env file in same path to create the mongo client.
     '''
     def createMongoDbAndCollection(self, db_name, collection_name):
+        # reading uri from .env file, which have mongodb atlas uri to connect to the server
         uri = config("uri", default="")
         # Create a new client and connect to the server
         client = MongoClient(uri, server_api=ServerApi('1'))

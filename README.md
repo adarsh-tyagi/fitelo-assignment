@@ -10,6 +10,7 @@ This file contains the list of dictionaries to be inserted in collection (table)
 #### .env :
 This file contains the variable **uri** with a value which will be the mongo atlas uri. Create this file before running the project. This uri is necesaary for creating database and collections.
 **NOTE :**  ***I have not added my .env file because it is having my mongodb credentials***
+![image](https://github.com/adarsh-tyagi/fitelo-assignment/assets/52347329/a204114f-06fc-4e66-982d-f2ad3af260db)
 
 #### Database.py :
 This file contains the Database class. The class has a method named **"createMongoDbAndCollection"** which read the mongo uri from .env file to creates the database and new collection inside that database. If collections already exists then it will remove that and create new one.
